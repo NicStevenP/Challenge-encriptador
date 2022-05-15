@@ -18,19 +18,12 @@ btn_desencriptar.addEventListener("click", function () {
 });
 
 btn_copiar.addEventListener("click",  function(){
-    let texto;
-    texto = texto_desencriptar.value;
-    console.log(texto)
-    console.log(texto_encriptar.value)
-    texto_encriptar
+    
+    console.log(texto_encriptar.value);
+    console.log(texto_desencriptar.value);
+    texto_encriptar.value = texto_desencriptar.value;
+    texto_desencriptar.value = "";
 
-    document.write
-    
-    
-
-    
-   /*  copiar.textContent = inputFrase.value;
-    inputFrase.value = ""; */
 
 });
 
